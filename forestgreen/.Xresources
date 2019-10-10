@@ -2,7 +2,8 @@
 *.foreground:   #746c48
 *.cursorColor:  #746c48
 
-URxvt.font: xft:Inconsolata:size=12
+!If Inconsolata is installed, uncomment this line
+!URxvt.font: xft:Inconsolata:size=12
 
 ! black
 *.color0:       #392925
@@ -36,6 +37,7 @@ URxvt.font: xft:Inconsolata:size=12
 *.color7:       #c8b55b
 *.color15:      #e4dc8c
 
+!Set compton to load on boot for the below block to function
 urxvt*transparent: true
 urxvt*tintcolor: #170f0d
 urxvt*shading: 25
